@@ -1,3 +1,3 @@
-# AndiMandi
-### Previously known as "BSDK"
+# BHADAAS
+### Previously known as "AndiMandi" and "BSDK"
 Gali dene wala website.
