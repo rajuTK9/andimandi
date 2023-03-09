@@ -1,0 +1,27 @@
+.navbar {
+    padding: 30px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 3;
+}
+
+.navbar .logo {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.navlinks {
+    display: flex;
+}
+
+.navlinks li {
+    margin-left: 50px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.navlinks li:hover {
+    cursor: pointer;
+}
