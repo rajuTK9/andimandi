@@ -14,7 +14,7 @@ function Navbar() {
       <ul className='navlinks'>
         <li onClick={() => {HandleClick('about')}}>About</li>
         <li>Pay us</li>
-        <li>Browse</li>
+        <li onClick={() => {HandleClick('browse')}}>Browse</li>
       </ul>
     </div>
   )

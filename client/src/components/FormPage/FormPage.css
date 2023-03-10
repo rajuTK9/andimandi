@@ -1,0 +1,29 @@
+.formpage .main-container {
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.formpage .disclaimer {
+    width: 40vw;
+}
+
+.formpage .disclaimer p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.formpage textarea {
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    padding: 15px;
+    width: 500px;
+    height: 300px;
+}
+
+.formpage .main-container button {
+    margin-top: 20px;
+}
