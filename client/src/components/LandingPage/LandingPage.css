@@ -1,0 +1,41 @@
+.landingpage .main-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.mainbhadaas {
+    width: 60vw;
+    /* text-align: center; */
+}
+
+.mainbhadaas .flex{
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.mainbhadaas .info {
+    font-size: 13px;
+    opacity: 0.5;
+    margin-left: 50px;
+}
+
+.landingpage .cta {
+    position: absolute;
+    bottom: 50px;
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingpage .cta h4 {
+    margin-right: 30px;
+}
