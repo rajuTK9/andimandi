@@ -3,11 +3,13 @@ import './BrowsePage.css'
 import MainBhadaas from '../LandingPage/MainBhadaas'
 import Navbar from '../Navbar/Navbar'
 import BhadaasCard from './BhadaasCard'
+import SideBar from '../SideBar/SideBar'
 
 function BrowsePage() {
   return (
     <div className='browsepage'>
-      <Navbar />
+        <Navbar />
+        <SideBar />
       <div className='main-container flex'>
         <div>
             <MainBhadaas />
