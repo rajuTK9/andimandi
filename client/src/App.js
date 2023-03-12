@@ -11,7 +11,10 @@ function App() {
       <Route path='/' element={<LandingPage />} />
       <Route path='/about' element={<AboutPage />} />
       <Route path='/form' element={<FormPage />} />
-      <Route path='/browse' element={<BrowsePage />} />
+      <Route path='/top' element={<BrowsePage content='top' />} />
+      <Route path='/new' element={<BrowsePage content='new' />} />
+      <Route path='/random' element={<BrowsePage content='random' />} />
+      <Route path='/liked' element={<BrowsePage content='liked' />} />
     </Routes>
   );
 }
