@@ -1,0 +1,55 @@
+.mainbhadaas {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("https://source.unsplash.com/random/?cars");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.455);
+  background-blend-mode: multiply;
+
+  /* black&white filter */
+  /* filter: brightness(70%) contrast(150%) saturate(0%) brightness(150%); */
+
+  /* to make text legible */
+  filter: saturate(0%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* GRAIN EFFECT ON THE IMAGE */
+.mainbhadaas::after {
+  content: "";
+  position: absolute;
+  width: 200vw;
+  height: 200vh;
+  left: -50%;
+  top: -50%;
+  background-image: url("https://grainy-gradients.vercel.app/noise.svg");
+  opacity: 0.5;
+}
+
+.mainbhadaas-container {
+  z-index: 1;
+  filter: unset;
+}
+
+@media (max-width: 500px) {
+  .mainbhadaas {
+    padding: 32px;
+  }
+}
+
+@media (max-width: 450px) {
+  .bhadaas-body {
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .bhadaas-info {
+    margin: 0 !important;
+  }
+}
