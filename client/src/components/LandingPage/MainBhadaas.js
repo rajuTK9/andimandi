@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./LandingPage.css";
 import "./MainBhadaas.css";
 import LikeButton from "../Miscellanous/LikeButton";
+import getData from "../../data/getData";
 
 function MainBhadaas() {
+  useEffect(() => {
+    console.log(getData("640784c86a6d28dea6c64516"));
+  }, []);
+
   return (
     <div className="mainbhadaas">
       <div className="mainbhadaas-container">
