@@ -3,6 +3,10 @@
     margin-left: 180px;
 }
 
+.browsepage .main-container .mainbhadaas {
+    justify-content: left;
+}
+
 .browsepage .adspace-browse {
     height: 600px;
     width: 300px !important;
