@@ -1,5 +1,5 @@
 .mainbhadaas {
-  height: 100vh;
+  /* height: 100vh;
   width: 100vw;
   background-image: url("https://source.unsplash.com/random/?cars");
   background-size: cover;
@@ -12,15 +12,16 @@
   /* filter: brightness(70%) contrast(150%) saturate(0%) brightness(150%); */
 
   /* to make text legible */
-  filter: saturate(0%);
+  /* filter: saturate(0%); */
 
   display: flex;
+  width: 100vw;
   align-items: center;
   justify-content: center;
 }
 
 /* GRAIN EFFECT ON THE IMAGE */
-.mainbhadaas::after {
+/* .mainbhadaas::after {
   content: "";
   position: absolute;
   width: 200vw;
@@ -52,4 +53,4 @@
   .bhadaas-info {
     margin: 0 !important;
   }
-}
+} */

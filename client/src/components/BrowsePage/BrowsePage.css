@@ -1,0 +1,46 @@
+.browsepage .main-container {
+    justify-content: space-between;
+    margin-left: 180px;
+}
+
+.browsepage .main-container .mainbhadaas {
+    justify-content: left;
+}
+
+.browsepage .adspace-browse {
+    height: 600px;
+    width: 300px !important;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.browsepage .cards-container {
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.bhadaas-card {
+    background-color: rgba(255, 255, 255, 0.03);
+    padding: 15px;
+    border-radius: 8px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px 20px 0 0;
+}
+
+.bhadaas-card p {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.bhadaas-card > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.bhadaas-card button, .bhadaas-card .like-btn {
+    width: 127.5px;
+}
